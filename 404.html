@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayan Chentouf - Portfolio</title>
+    <script>
+        // Redirige toutes les requêtes 404 vers index.html pour que React Router puisse gérer le routing
+        var path = window.location.pathname.replace(/\/$/, '');
+        var base = '/portfolio';
+        
+        if (!path.startsWith(base)) {
+            path = base + path;
+        }
+        
+        window.location.href = base + '/index.html?path=' + encodeURIComponent(path);
+    </script>
+</head>
+<body>
+    <p>Redirection en cours...</p>
+</body>
+</html>
