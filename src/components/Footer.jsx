@@ -35,7 +35,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold gradient-text mb-2">RC</h3>
             <p className="text-gray-600 dark:text-gray-400">
-              Étudiant Data Engineering & IA
+              Software & Data engineer 
             </p>
           </div>
 
@@ -60,7 +60,7 @@ export default function Footer() {
           {/* Social Links */}
           <div>
             <h4 className="font-semibold mb-4 text-gray-900 dark:text-gray-50">
-              Connectez-moi
+              contactez-moi
             </h4>
             <div className="flex space-x-4">
               {socialLinks.map((link) => (
@@ -85,7 +85,7 @@ export default function Footer() {
             &copy; {currentYear} Rayan Chentouf. Tous droits réservés.
           </p>
           <p className="text-gray-500 dark:text-gray-500 text-xs mt-2">
-            Conçu & Construit avec ❤️ en utilisant React & Tailwind CSS
+           
           </p>
         </div>
       </div>

@@ -5,11 +5,6 @@ export default function ProjectCard({ project }) {
   return (
     <Link to={`/projects/${project.id}`}>
       <div className="bg-white dark:bg-white rounded-xl overflow-hidden border border-gray-300 dark:border-gray-300 h-full flex flex-col hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
-        {/* Screenshot Placeholder */}
-        <div className={`w-full h-40 bg-gradient-to-br ${project.color} flex items-center justify-center text-4xl opacity-85 hover:opacity-100 transition-all duration-300`}>
-          🔗
-        </div>
-
         {/* Content */}
         <div className="p-6 flex flex-col flex-grow">
           {/* Title */}
