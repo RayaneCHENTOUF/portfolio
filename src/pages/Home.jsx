@@ -164,7 +164,7 @@ export default function Home() {
       <section className="section-container py-20 mt-12">
         <div className="bg-black dark:bg-black rounded-lg border border-gray-700 dark:border-gray-700 p-12 text-center hover:shadow-2xl hover:border-gray-500 transition-all duration-300 cursor-pointer">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white dark:text-white uppercase tracking-wide">
-            Tous Un Message?
+            Contactez-moi
           </h2>
           <p className="text-gray-300 dark:text-gray-300 mb-12">
             Contactez-moi par email, LinkedIn ou GitHub
